@@ -1,0 +1,12 @@
+footer {
+    background-color:oldlace;
+    padding: 1rem;
+  }
+
+.footer-style{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    list-style-type: none;
+}
