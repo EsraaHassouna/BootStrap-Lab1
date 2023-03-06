@@ -1,17 +1,31 @@
-footer {
+.main{
+background-color: black;
+padding-bottom: 20px;
+margin-bottom: 20px;
+border-bottom: 2px solid;
+font-style: oblique;
+ color: aliceblue;
+}
+
+.footer {
     background-color:oldlace;
     padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
   }
 
 .footer-style{
-    justify-content: flex-end;
-    align-items: center;
-    gap: 1rem;
     list-style-type: none;
+    display:flex;
+  }
+
+.col-4
+{
+  display:flex;
 }
 
-
-.footer-style.col-4.inline li
+.footer-header-items
 {
-  display:inline-block;
+  display:grid;
 }
